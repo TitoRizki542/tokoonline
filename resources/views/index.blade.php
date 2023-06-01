@@ -5,13 +5,13 @@
 	<meta charset="utf-8">
 
 	<!--====== Title ======-->
-	<title>ClassiList Classified Ads Template</title>
+	<title>Tani-KU</title>
 
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!--====== Favicon Icon ======-->
-	<link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+	<link rel="shortcut icon" href="assets/images/tani.png" type="image/png">
 
 	<!--====== Animate CSS ======-->
 	<link rel="stylesheet" href="assets/css/animate.css">
@@ -74,7 +74,7 @@
 					<div class="col-xl-12">
 						<nav class="navbar navbar-expand-lg">
 							<a class="navbar-brand" href="index.html">
-								<img id="logo" src="assets/images/logo/logo.svg" alt="Logo">
+								<img id="logo" src="assets/images/tani.png" alt="Logo">
 							</a>
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 								aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -119,31 +119,21 @@
 											<li><a href="category-list.html">Category List</a></li>
 										</ul>
 									</li>
-									<li class="nav-item">
-										<a class="page-scroll" href="product-details.html">Product Details</a>
-									</li>
 								</ul>
 							</div>
 							<ul class="header-btn d-md-flex">
-								<li>
+								{{-- <li>
 									<a href="#" class="main-btn account-btn">
 										<span class="d-md-none"><i class="lni lni-user"></i></span>
-										<span class="d-none d-md-block">My Account</span>
+										<span class="d-none d-md-block">Profile</span>
 									</a>
 									<ul class="dropdown-nav">
-										<li><a href="dashboard.html">Dashboard</a></li>
 										<li><a href="profile-settings.html">Profile Settings</a></li>
-										<li><a href="post-ad.html">Post Ad</a></li>
-										<li><a href="my-ads.html">My Ads</a></li>
-										<li><a href="offers.html">Offers/Messages</a></li>
-										<li><a href="payments.html">Payments</a></li>
-										<li><a href="favorites.html">Favorites</a></li>
-										<li><a href="privacy.html">Privacy</a></li>
 										<li><a href="javascript:void(0)">Sign Out</a></li>
 									</ul>
-								</li>
+								</li> --}}
 								<li>
-									<a href="post-ad.html" class="main-btn btn-hover d-none d-md-block">Post An Ad</a>
+									<a href="#" class="main-btn btn-hover d-none d-md-block">Login</a>
 								</li>
 							</ul>
 						</nav> <!-- navbar -->
@@ -161,11 +151,14 @@
 			<div class="row">
 				<div class="mx-auto col-lg-9 col-xl-9 col-md-10">
 					<div class="text-center hero-content">
-						<h1 class="mb-30 wow fadeInUp" data-wow-delay=".2s">You are using free lite version</h1>
-						<p class="wow fadeInUp" data-wow-delay=".4s">Please, purchase full version to get all pages, features and sections.</p></br>
-
-						<a href="https://rebrand.ly/gg-classilist/" rel="nofollow" class="main-btn btn-hover">Purchase Now</a>
-
+						<h1 class="mb-30 wow fadeInUp" data-wow-delay=".2s">Tani-ku</h1>
+						<p class="wow fadeInUp" data-wow-delay=".4s">Selamat Datang di TaniKu yang merupakan sebuah platform yang didedikasikan  
+ 
+							untuk mempermudah proses jual beli sayuran secara online. Situs ini menyediakan 
+							
+							berbagai informasi terkait seputar harga pasar terkini dari sayuran segar yang sudah 
+							
+							dipanen dan siap akan dijual.</p></br>
 					</div>
 				</div>
 			</div>
@@ -266,449 +259,10 @@
 						<h3>Furnitures</h3>
 					</a>
 				</div>
-				<div class="category-list-item">
-					<a href="category.html">
-						<div class="icon">
-							<i class="lni lni-tshirt"></i>
-						</div>
-						<h3>Fashion</h3>
-					</a>
-				</div>
-				<div class="category-list-item">
-					<a href="category.html">
-						<div class="icon">
-							<i class="lni lni-briefcase"></i>
-						</div>
-						<h3>Jobs</h3>
-					</a>
-				</div>
-				<div class="category-list-item">
-					<a href="category.html">
-						<div class="icon">
-							<i class="lni lni-apartment"></i>
-						</div>
-						<h3>Real Estates</h3>
-					</a>
-				</div>
-				<div class="category-list-item">
-					<a href="category.html">
-						<div class="icon">
-							<i class="lni lni-book"></i>
-						</div>
-						<h3>Education</h3>
-					</a>
-				</div>
-				<div class="category-list-item">
-					<a href="category.html">
-						<div class="icon">
-							<i class="lni lni-users"></i>
-						</div>
-						<h3>Matrimony</h3>
-					</a>
-				</div>
-				<div class="category-list-item">
-					<a href="category.html">
-						<div class="icon">
-							<i class="lni lni-heart"></i>
-						</div>
-						<h3>Pets</h3>
-					</a>
-				</div>
 			</div>
 		</div>
 	</section>
 	<!--====== CATEGORY LIST PART END ======-->
-
-	<!--====== LATEST PRODUCT PART START ======-->
-	<section class="latest-product-area pt-130 pb-110">
-		<div class="container">
-			<div class="row">
-				<div class="mx-auto col-xl-6 col-lg-7 col-md-10">
-					<div class="text-center section-title mb-60">
-						<h1>Latest Products</h1>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt dolore magna.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-
-				<div class="col-xl-4 col-lg-6 col-md-6">
-					<div class="single-product">
-						<div class="product-img">
-							<a href="product-details.html">
-								<img src="assets/images/product/l-product-1.jpg" alt="">
-							</a>
-							<div class="product-action">
-								<a href="javascript:void(0)"><i class="lni lni-heart"></i></a>
-								<a href="javascript:void(0)" class="share"><i class="lni lni-share"></i></a>
-							</div>
-						</div>
-
-						<div class="product-content">
-							<h3 class="name"><a href="product-details.html">Apple iPhone x</a></h3>
-							<span class="update">Last Update: 5 hours ago</span>
-							<ul class="address">
-								<li>
-									<a href="javascript:void(0)"><i class="lni lni-calendar"></i> 20 June, 2023</a>
-								</li>
-								<li>
-									<a href="javascript:void(0)"><i class="lni lni-map-marker"></i> Canada</a>
-								</li>
-								<li>
-									<a href="javascript:void(0)"><i class="lni lni-user"></i> Stifen Jon</a>
-								</li>
-								<li>
-									<a href="javascript:void(0)"><i class="lni lni-package"></i> Used</a>
-								</li>
-							</ul>
-							<div class="product-bottom">
-								<h3 class="price">$120.99</h3>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-xl-4 col-lg-6 col-md-6">
-					<div class="single-product">
-						<div class="product-img">
-							<a href="product-details.html">
-								<img src="assets/images/product/l-product-2.jpg" alt="">
-							</a>
-							<div class="product-action">
-								<a href="javascript:void(0)"><i class="lni lni-heart"></i></a>
-								<a href="javascript:void(0)" class="share"><i class="lni lni-share"></i></a>
-							</div>
-						</div>
-
-						<div class="product-content">
-							<h3 class="name"><a href="product-details.html">Apple MacBook Air</a></h3>
-							<span class="update">Last Update: 5 hours ago</span>
-							<ul class="address">
-								<li>
-									<a href="javascript:void(0)"><i class="lni lni-calendar"></i> 20 June, 2023</a>
-								</li>
-								<li>
-									<a href="javascript:void(0)"><i class="lni lni-map-marker"></i> Canada</a>
-								</li>
-								<li>
-									<a href="javascript:void(0)"><i class="lni lni-user"></i> Stifen Jon</a>
-								</li>
-								<li>
-									<a href="javascript:void(0)"><i class="lni lni-package"></i> Used</a>
-								</li>
-							</ul>
-							<div class="product-bottom">
-								<h3 class="price">$420.99</h3>
-								<a href="javascript:void(0)" class="link-ad"><i class="lni lni-checkmark-circle"></i> Verified Ad</a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-xl-4 col-lg-6 col-md-6">
-					<div class="single-product">
-						<div class="product-img">
-							<a href="product-details.html">
-								<img src="assets/images/product/l-product-3.jpg" alt="">
-							</a>
-							<div class="product-action">
-								<a href="javascript:void(0)"><i class="lni lni-heart"></i></a>
-								<a href="javascript:void(0)" class="share"><i class="lni lni-share"></i></a>
-							</div>
-						</div>
-
-						<div class="product-content">
-							<h3 class="name"><a href="product-details.html">Cctv camera</a></h3>
-							<span class="update">Last Update: 5 hours ago</span>
-							<ul class="address">
-								<li>
-									<a href="javascript:void(0)"><i class="lni lni-calendar"></i> 20 June, 2023</a>
-								</li>
-								<li>
-									<a href="javascript:void(0)"><i class="lni lni-map-marker"></i> Canada</a>
-								</li>
-								<li>
-									<a href="javascript:void(0)"><i class="lni lni-user"></i> Stifen Jon</a>
-								</li>
-								<li>
-									<a href="javascript:void(0)"><i class="lni lni-package"></i> Used</a>
-								</li>
-							</ul>
-							<div class="product-bottom">
-								<h3 class="price">$80.99</h3>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-xl-4 col-lg-6 col-md-6">
-					<div class="single-product">
-						<div class="product-img">
-							<a href="product-details.html">
-								<img src="assets/images/product/l-product-4.jpg" alt="">
-							</a>
-							<div class="product-action">
-								<a href="javascript:void(0)"><i class="lni lni-heart"></i></a>
-								<a href="javascript:void(0)" class="share"><i class="lni lni-share"></i></a>
-							</div>
-						</div>
-
-						<div class="product-content">
-							<h3 class="name"><a href="product-details.html">Apple's new iMac</a></h3>
-							<span class="update">Last Update: 5 hours ago</span>
-							<ul class="address">
-								<li>
-									<a href="javascript:void(0)"><i class="lni lni-calendar"></i> 20 June, 2023</a>
-								</li>
-								<li>
-									<a href="javascript:void(0)"><i class="lni lni-map-marker"></i> Canada</a>
-								</li>
-								<li>
-									<a href="javascript:void(0)"><i class="lni lni-user"></i> Stifen Jon</a>
-								</li>
-								<li>
-									<a href="javascript:void(0)"><i class="lni lni-package"></i> Used</a>
-								</li>
-							</ul>
-							<div class="product-bottom">
-								<h3 class="price">$3000.99</h3>
-								<a href="javascript:void(0)" class="link-ad"><i class="lni lni-checkmark-circle"></i> Verified Ad</a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-xl-4 col-lg-6 col-md-6">
-					<div class="single-product">
-						<div class="product-img">
-							<a href="product-details.html">
-								<img src="assets/images/product/l-product-5.jpg" alt="">
-							</a>
-							<div class="product-action">
-								<a href="javascript:void(0)"><i class="lni lni-heart"></i></a>
-								<a href="javascript:void(0)" class="share"><i class="lni lni-share"></i></a>
-							</div>
-						</div>
-
-						<div class="product-content">
-							<h3 class="name"><a href="product-details.html">Best Compact DSLR</a></h3>
-							<span class="update">Last Update: 5 hours ago</span>
-							<ul class="address">
-								<li>
-									<a href="javascript:void(0)"><i class="lni lni-calendar"></i> 20 June, 2023</a>
-								</li>
-								<li>
-									<a href="javascript:void(0)"><i class="lni lni-map-marker"></i> Canada</a>
-								</li>
-								<li>
-									<a href="javascript:void(0)"><i class="lni lni-user"></i> Stifen Jon</a>
-								</li>
-								<li>
-									<a href="javascript:void(0)"><i class="lni lni-package"></i> Used</a>
-								</li>
-							</ul>
-							<div class="product-bottom">
-								<h3 class="price">$290.99</h3>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-xl-4 col-lg-6 col-md-6">
-					<div class="single-product">
-						<div class="product-img">
-							<a href="product-details.html">
-								<img src="assets/images/product/l-product-6.jpg" alt="">
-							</a>
-							<div class="product-action">
-								<a href="javascript:void(0)"><i class="lni lni-heart"></i></a>
-								<a href="javascript:void(0)" class="share"><i class="lni lni-share"></i></a>
-							</div>
-						</div>
-
-						<div class="product-content">
-							<h3 class="name"><a href="product-details.html">10 Future Concept Cars</a></h3>
-							<span class="update">Last Update: 5 hours ago</span>
-							<ul class="address">
-								<li>
-									<a href="javascript:void(0)"><i class="lni lni-calendar"></i> 20 June, 2023</a>
-								</li>
-								<li>
-									<a href="javascript:void(0)"><i class="lni lni-map-marker"></i> Canada</a>
-								</li>
-								<li>
-									<a href="javascript:void(0)"><i class="lni lni-user"></i> Stifen Jon</a>
-								</li>
-								<li>
-									<a href="javascript:void(0)"><i class="lni lni-package"></i> Used</a>
-								</li>
-							</ul>
-							<div class="product-bottom">
-								<h3 class="price">$4520.99</h3>
-								<a href="javascript:void(0)" class="link-ad"><i class="lni lni-checkmark-circle"></i> Verified Ad</a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</section>
-	<!--====== LATEST PRODUCT PART ENDS ======-->
-
-	<!--====== VIDEO PART START ======-->
-	<section class="video-area">
-		<div class="video-wrapper img-bg">
-			<div class="container">
-				<div class="text-center video-content">
-					<h1 class="text-white mb-60">Learn More About ClassiList</h1>
-					<a href="#" class="glightbox video-btn"><i class="lni lni-play"></i></a>
-				</div>
-			</div>
-		</div>
-
-		<div class="container">
-			<div class="count-up-wrapper">
-				<div class="row">
-
-					<div class="col-lg-3 col-sm-6">
-						<div class="single-counter">
-							<div class="icon">
-								<i class="lni lni-layers"></i>
-							</div>
-							<span class="count">34864</span>
-							<span>Regular Ads</span>
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-sm-6">
-						<div class="single-counter">
-							<div class="icon">
-								<i class="lni lni-map-marker"></i>
-							</div>
-							<span class="count">867</span>
-							<span>Locations</span>
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-sm-6">
-						<div class="single-counter">
-							<div class="icon">
-								<i class="lni lni-users"></i>
-							</div>
-							<span class="count">56743</span>
-							<span>Regular Members</span>
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-sm-6">
-						<div class="single-counter">
-							<div class="icon">
-								<i class="lni lni-briefcase"></i>
-							</div>
-							<span class="count">4583</span>
-							<span>Premium Ads</span>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--====== VIDEO PART ENDS ======-->
-
-	<!--====== SERVICE PART START ======-->
-	<section class="service-area pt-140 pb-110">
-		<div class="container">
-			<div class="row">
-				<div class="mx-auto col-xl-6 col-lg-7 col-md-10">
-					<div class="text-center section-title mb-60">
-						<h1>Why Choose Us</h1>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore
-						magna.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="row justify-content-center">
-
-				<div class="col-lg-4 col-md-6 col-sm-8 col-11">
-					<div class="single-service">
-						<div class="icon">
-							<i class="lni lni-book"></i>
-						</div>
-						<div class="service-content">
-							<h3>FULLY DOCUMENTED</h3>
-							<p>Buy and sell everything from used cars to mobile phones and computer or search for property.</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 col-sm-8 col-11">
-					<div class="single-service">
-						<div class="icon">
-							<i class="lni lni-leaf"></i>
-						</div>
-						<div class="service-content">
-							<h3>CLEAN & MODERN DESIGN</h3>
-							<p>Buy and sell everything from used cars to mobile phones and computer or search for property.</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 col-sm-8 col-11">
-					<div class="single-service">
-						<div class="icon">
-							<i class="lni lni-map"></i>
-						</div>
-						<div class="service-content">
-							<h3>GREAT FEATURES</h3>
-							<p>Buy and sell everything from used cars to mobile phones and computer or search for property.</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 col-sm-8 col-11">
-					<div class="single-service">
-						<div class="icon">
-							<i class="lni lni-cog"></i>
-						</div>
-						<div class="service-content">
-							<h3>COMPLETELY CUSTOMIZABLE</h3>
-							<p>Buy and sell everything from used cars to mobile phones and computer or search for property.</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 col-sm-8 col-11">
-					<div class="single-service">
-						<div class="icon">
-							<i class="lni lni-pointer-up"></i>
-						</div>
-						<div class="service-content">
-							<h3>USER FRIENDLY</h3>
-							<p>Buy and sell everything from used cars to mobile phones and computer or search for property.</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 col-sm-8 col-11">
-					<div class="single-service">
-						<div class="icon">
-							<i class="lni lni-laptop-phone"></i>
-						</div>
-						<div class="service-content">
-							<h3>FULLY RESPONSIVE</h3>
-							<p>Buy and sell everything from used cars to mobile phones and computer or search for property.</p>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</section>
-	<!--====== SERVICE PART ENDS ======-->
 
 	<!--====== FEATURE PRODUCT PART START ======-->
 	<section class="feature-product-area bg_cover">
@@ -716,8 +270,8 @@
 			<div class="row">
 				<div class="mx-auto col-lg-6 col-md-10">
 					<div class="text-center section-title mb-60">
-						<h1>Featured Products</h1>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+						<h1>Produk Tani</h1>
+						<p>Hasil dari perkebunan yang sangat segar dan langsung dari petaninya</p>
 					</div>
 				</div>
 			</div>
@@ -728,7 +282,7 @@
 					<div class="col-lg-4 col-md-6">
 						<div class="single-product">
 							<div class="product-img">
-								<img src="assets/images/product/l-product-1.jpg" alt="">
+								<img src="assets/images/product/BUAH 1.png" alt="">
 							</div>
 
 							<div class="product-content">
@@ -757,7 +311,7 @@
 						<div class="single-product">
 							<div class="product-img">
 								<a href="javascript:void(0)" class="badge">New</a>
-								<img src="assets/images/product/l-product-2.jpg" alt="">
+								<img src="assets/images/product/BUAH 2.png" alt="">
 							</div>
 
 							<div class="product-content">
@@ -845,116 +399,6 @@
 	</section>
 	<!--====== FEATURE PRODUCT PART ENDS ======-->
 
-	<!--====== PRICING PRODUCT PART START ======-->
-	<section class="pricing-area pt-140 pb-140">
-		<div class="container">
-			<div class="row">
-				<div class="mx-auto col-xl-6 col-lg-7 col-md-10">
-					<div class="text-center section-title mb-90">
-						<h1>Select a Package</h1>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="row justify-content-center">
-
-				<div class="col-lg-4 col-md-8 col-sm-10 col-11">
-					<div class="single-pricing">
-						<div class="icon">
-							<i class="lni lni-layers"></i>
-						</div>
-						<h3 class="name">Basic Pack</h3>
-						<ul>
-							<li>Free ad posting</li>
-							<li>6 Featured ads availability</li>
-							<li>For 30 days</li>
-							<li>100% Secure!</li>
-						</ul>
-						<h2 class="price"> <sup>$</sup> 20.00</h2>
-						<span class="time">Monthly</span>
-
-						<a href="javascript:void(0)" class="main-btn btn-hover">Buy Now</a>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-8 col-sm-10 col-11">
-					<div class="single-pricing standard">
-						<div class="icon">
-							<i class="lni lni-leaf"></i>
-						</div>
-						<h3 class="name">Standard Pack</h3>
-						<ul>
-							<li>Free ad posting</li>
-							<li>9 Featured ads availability</li>
-							<li>For 30 days</li>
-							<li>100% Secure!</li>
-						</ul>
-						<h2 class="price"> <sup>$</sup> 29.00</h2>
-						<span class="time">Monthly</span>
-
-						<a href="javascript:void(0)" class="main-btn btn-hover">Buy Now</a>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-8 col-sm-10 col-11">
-					<div class="single-pricing">
-						<div class="icon">
-							<i class="lni lni-diamond-alt"></i>
-						</div>
-						<h3 class="name">Premium Pack</h3>
-						<ul>
-							<li>Free ad posting</li>
-							<li>20 Featured ads availability</li>
-							<li>For 30 days</li>
-							<li>100% Secure!</li>
-						</ul>
-						<h2 class="price"> <sup>$</sup> 49.00</h2>
-						<span class="time">Monthly</span>
-
-						<a href="javascript:void(0)" class="main-btn btn-hover">Buy Now</a>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</section>
-	<!--====== PRICING PRODUCT PART ENDS ======-->
-
-	<!--====== SUBSCRIBE PRODUCT PART START ======-->
-	<section class="subscribe-area">
-		<div class="container">
-			<div class="subscribe-wrapper bg_cover">
-				<div class="row align-items-center">
-					<div class="col-lg-7">
-						<div class="subscribe-content section-title">
-							<h1 class="text-white">Subscribe Our Newsletter</h1>
-							<p class="text-white">Buy and sell everything from used cars to mobile phones and computer or search for property.</p>
-						</div>
-					</div>
-					<div class="col-lg-5">
-						<div class="subscribe-form-wrapper">
-							<form action="#" class="subscribe-form">
-								<input type="email" name="sub-email" placeholder="Enter your Email">
-								<button><i class="lni lni-telegram-original"></i></button>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--====== SUBSCRIBE PRODUCT PART ENDS ======-->
-
-				<div class="mx-auto col-lg-9 col-xl-9 col-md-10 pt-60 mb-60">
-					<div class="text-center hero-content">
-						<h1 class="mb-30 wow fadeInUp" data-wow-delay=".2s">You are using free lite version</h1>
-						<p class="wow fadeInUp" data-wow-delay=".4s">Please, purchase full version to get all pages, features and sections.</p></br>
-
-						<a href="https://rebrand.ly/gg-classilist/" rel="nofollow" class="main-btn btn-hover">Purchase Now</a>
-
-					</div>
-
 	<!--====== FOOTER PART START ======-->
 	<footer class="footer-area">
 		<div class="widget-wrapper">
@@ -967,7 +411,7 @@
 					<div class="col-xl-4 col-md-7">
 						<div class="footer-widget about">
 							<a href="index.html" class="d-inline-block mb-30">
-								<img src="assets/images/logo/logo.svg" alt="">
+								<img src="assets/images/logo/tani.png" alt="">
 							</a>
 							<p class="text-white mb-25">Buy And Sell Everything From Used Cars To Mobile Phones And Computers, Search For Property, Jobs And More</p>
 							<ul class="social">
@@ -1084,16 +528,7 @@
 
 	<script>
 
-		//========= glightbox
-		const myGallery = GLightbox({
-			'href': 'assets/video/Free App Landing Page Template - AppLand.mp4',
-			'type': 'video',
-			'source': 'youtube', //vimeo, youtube or local
-			'width': 900,
-			'autoplayVideos': true,
-		});
-
-		//======== tiny slider for feature-product-carousel
+	//======== tiny slider for feature-product-carousel
 		tns({
 			slideBy: 'page',
 			autoplay: false,

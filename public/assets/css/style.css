@@ -1717,7 +1717,7 @@ textarea:focus {
   padding: 20px;
   opacity: 0;
   visibility: hidden;
-  min-height: 300px;
+  min-height: 100px;
   transition: all 0.3s ease-out 0s;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
 }
