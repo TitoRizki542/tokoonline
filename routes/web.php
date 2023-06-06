@@ -13,7 +13,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/admin', function () {
+    return view('admin.dashboard');
+});
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/master', function () {
+    return view('admin.master');
+});
+Route::get('/cek', function () {
+    return view('admin.cekstokbarang');
+});
+Route::get('/cek2', function () {
+    return view('admin.cektransaksi');
+});
+
 
