@@ -28,5 +28,7 @@ Route::get('/cek', function () {
 Route::get('/cek2', function () {
     return view('admin.cektransaksi');
 });
-
+Route::get('/profile', function () {
+    return view('admin.profile');
+});
 
