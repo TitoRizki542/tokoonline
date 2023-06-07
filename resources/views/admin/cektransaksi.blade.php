@@ -24,12 +24,12 @@
                 </div>
             </div>
         </div>
-        <div class="card shadow mb-2">
-            <div class="card-body mt-2">
-                <table class="table table-sm">
-                    <thead>
+        <div class="card shadow">
+            <div class="card-body">
+                <table class="table" id="dataTable">
+                    <thead class="table-secondary">
                         <tr align="center">
-                            <td>Id Produk</td>
+                            <td>No Produk</td>
                             <td>Tanggal Transaksi</td>
                             <td>Nama</td>
                             <td>Jenis</td>

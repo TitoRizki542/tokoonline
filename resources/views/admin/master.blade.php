@@ -22,6 +22,8 @@
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <!-- Custom styles for this page -->
+    <link href="vendor\datatables\dataTables.bootstrap4.min.css" rel="stylesheet">
 
     {{-- Font Awesome Kit --}}
     <script src="https://kit.fontawesome.com/35e083d87e.js" crossorigin="anonymous"></script>
@@ -47,11 +49,6 @@
             <hr class="sidebar-divider my-0">
             <li class="nav-item ">
                 <a class="nav-link" href="profil">
-                    <i class="fa-solid fa-user"></i>
-                    <span>Profile</span></a>
-            </li>
-            <li class="nav-item ">
-                <a class="nav-link" href="profil">
                     <i class="fa-solid fa-chart-simple"></i>
                     <span>Dashboaard</span></a>
             </li>
@@ -68,7 +65,7 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
                     aria-controls="collapseTwo">
-                    <i class="fa-sharp fa-regular fa-plus fa-2xl"></i>
+                    <i class="fa-solid fa-circle-plus fa-2xl"></i>
                     <span>Tambah Barang</span>
                 </a>
 
@@ -77,16 +74,12 @@
                         <h6 class="collapse-header">Jenis Barang</h6>
                         <a class="collapse-item" href="tambahbarangsayur">Sayur</a>
                         <a class="collapse-item" href="tambahbarangbuah">Buah</a>
+                        <a class="collapse-item" href="cekstokbarang">Cek Stok</a>
                     </div>
                 </div>
             <li class="nav-item">
-                <a class="nav-link" href="cekstokbarang">
-                    <i class="fa-solid fa-list fa-2xl"></i>
-                    <span>Cek Stok Barang</span></a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link" href="cektransaksi">
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-circle-plus fa-2xl"></i>
                     <span>Cek Transaksi</span></a>
             </li>
 
@@ -94,8 +87,8 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                     aria-expanded="true" aria-controls="collapseUtilities">
-                    <i class="fa-solid fa-wallet"></i>
-                    <span>Cek Pedapatan</span>
+                    <i class="fa-solid fa-wallet fa-xl"></i>
+                    <span>Cek Pendapatan</span>
                 </a>
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
@@ -138,7 +131,7 @@
                     </button>
 
                     <!-- Topbar Search -->
-                    <form
+                    {{-- <form
                         class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
                         <div class="input-group">
                             <input type="text" class="form-control bg-light border-0 small"
@@ -149,7 +142,7 @@
                                 </button>
                             </div>
                         </div>
-                    </form>
+                    </form> --}}
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
@@ -316,10 +309,6 @@
                                     <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Settings
                                 </a>
-                                <a class="dropdown-item" href="activity">
-                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Activity Log
-                                </a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="" data-toggle="modal"
                                     data-target="#logoutModal">
@@ -340,12 +329,12 @@
                 <footer class="sticky-footer bg-white">
                     <div class="container my-auto">
                         <div class="copyright text-center my-auto">
-                            <span>Copyright &copy; Tito Rizki</span>
+                            <span>Copyright &copy; DotExE</span>
                         </div>
                     </div>
                 </footer>
                 <!-- End of Footer -->
-
+                </div>
             </div>
             <!-- End of Content Wrapper -->
 
@@ -381,18 +370,26 @@
         <script src="vendor/jquery/jquery.min.js"></script>
         <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+        
         <!-- Core plugin JavaScript-->
         <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
+        
         <!-- Custom scripts for all pages-->
         <script src="js/sb-admin-2.min.js"></script>
-
+        
         <!-- Page level plugins -->
         <script src="vendor/chart.js/Chart.min.js"></script>
-
+        
         <!-- Page level custom scripts -->
         <script src="js/demo/chart-area-demo.js"></script>
         <script src="js/demo/chart-pie-demo.js"></script>
+        
+        <!-- Page level plugins -->
+        <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+        <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+        <!-- Page level custom scripts -->
+        <script src="js/demo/datatables-demo.js"></script>
 
 </body>
 
