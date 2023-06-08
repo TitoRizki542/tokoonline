@@ -23,12 +23,12 @@ Route::get('/master', function () {
     return view('admin.master');
 });
 Route::get('/cek', function () {
-    return view('admin.cekstokbarang');
+    return view('admin.cekbarang');
 });
 Route::get('/cek2', function () {
     return view('admin.cektransaksi');
 });
-Route::get('/profile', function () {
+Route::get('/profil', function () {
     return view('admin.profile');
 });
 

@@ -48,7 +48,7 @@
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
             <li class="nav-item ">
-                <a class="nav-link" href="profil">
+                <a class="nav-link" href="admin">
                     <i class="fa-solid fa-chart-simple"></i>
                     <span>Dashboaard</span></a>
             </li>
@@ -63,34 +63,31 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
-                    aria-controls="collapseTwo">
-                    <i class="fa-solid fa-circle-plus fa-2xl"></i>
-                    <span>Tambah Barang</span>
+                <a class="nav-link" href="cek">
+                    <i class="fa-solid fa-truck-pickup fa-2xl"></i>
+                    <span>Produksi</span>
                 </a>
 
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                {{-- <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Jenis Barang</h6>
-                        <a class="collapse-item" href="tambahbarangsayur">Sayur</a>
-                        <a class="collapse-item" href="tambahbarangbuah">Buah</a>
-                        <a class="collapse-item" href="cekstokbarang">Cek Stok</a>
+                        <h6 class="collapse-header">Detail Produksi</h6>
+                        <a class="collapse-item" href="tambahbarangbuah">Tambah Barang</a>
+                        <a class="collapse-item" href="cek">Cek Barang</a>
                     </div>
-                </div>
+                </div> --}}
             <li class="nav-item">
-                <a class="nav-link" href="cektransaksi">
+                <a class="nav-link" href="cek2">
                     <i class="fa-solid fa-circle-plus fa-2xl"></i>
-                    <span>Cek Transaksi</span></a>
+                    <span>Transaksi</span></a>
             </li>
 
             <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-                    aria-expanded="true" aria-controls="collapseUtilities">
+                <a class="nav-link" href="#">
                     <i class="fa-solid fa-wallet fa-xl"></i>
-                    <span>Cek Pendapatan</span>
+                    <span>Pendapatan</span>
                 </a>
-                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
+                {{-- <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Detail Pendapatan</h6>
@@ -98,7 +95,7 @@
                         <a class="collapse-item" href="penarikan">Penarikan</a>
                         <a class="collapse-item" href="riwayat">Riwayat</a>
                     </div>
-                </div>
+                </div> --}}
             </li>
 
             <!-- Divider -->
