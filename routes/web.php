@@ -17,7 +17,7 @@ Route::get('/admin', function () {
     return view('admin.dashboard');
 });
 Route::get('/', function () {
-    return view('index');
+    return view('user.index');
 });
 Route::get('/master', function () {
     return view('admin.master');
@@ -28,7 +28,12 @@ Route::get('/cek', function () {
 Route::get('/cek2', function () {
     return view('admin.cektransaksi');
 });
+Route::get('/cek3', function () {
+    return view('admin.pendapatan');
+});
 Route::get('/profil', function () {
     return view('admin.profile');
 });
-
+Route::get('/setting', function () {
+    return view('admin.setting');
+});

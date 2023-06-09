@@ -73,18 +73,13 @@
                 <div class="row align-items-center">
                     <div class="col-xl-12">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand" href="index.html">
-                                <img id="logo" src="assets/images/tani.png" alt="Logo">
+                            <a class="navbar-brand" href="/">
+                                <img id="logo" src="assets/images/tani.png" alt="Logo">TANI-KU
                             </a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="toggler-icon"></span>
-                                <span class="toggler-icon"></span>
-                                <span class="toggler-icon"></span>
-                            </button>
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
-                                <ul id="nav" class="navbar-nav">
+                                <marquee behavior="alternate" width="400" class="theme-color">Selamat Datang Di Aplikasi
+                                    Kami</marquee><br>
+                                {{-- <ul id="nav" class="navbar-nav">
                                     <li class="nav-item">
                                         <a class="page-scroll active" href="index.html">Home</a>
                                     </li>
@@ -122,19 +117,9 @@
                                             <li><a href="category-list.html">Category List</a></li>
                                         </ul>
                                     </li>
-                                </ul>
+                                </ul> --}}
                             </div>
                             <ul class="header-btn d-md-flex">
-                                {{-- <li>
-									<a href="#" class="main-btn account-btn">
-										<span class="d-md-none"><i class="lni lni-user"></i></span>
-										<span class="d-none d-md-block">Profile</span>
-									</a>
-									<ul class="dropdown-nav">
-										<li><a href="profile-settings.html">Profile Settings</a></li>
-										<li><a href="javascript:void(0)">Sign Out</a></li>
-									</ul>
-								</li> --}}
                                 <li>
                                     <a href="#" class="main-btn btn-hover d-none d-md-block">Login</a>
                                 </li>
@@ -182,39 +167,6 @@
                                 <input type="text" name="keyword" id="keyword" placeholder="Product keyword">
                             </div>
                         </div>
-                        <div class="col-lg-3 col-sm-5 col-10">
-                            <div class="search-input">
-                                <label for="category"><i class="lni lni-grid-alt theme-color"></i></label>
-                                <select name="category" id="category">
-                                    <option value="none" selected disabled>Categories</option>
-                                    <option value="none">Vehicle</option>
-                                    <option value="none">Electronics</option>
-                                    <option value="none">Mobiles</option>
-                                    <option value="none">Furniture</option>
-                                    <option value="none">Fashion</option>
-                                    <option value="none">Jobs</option>
-                                    <option value="none">Real Estate</option>
-                                    <option value="none">Animals</option>
-                                    <option value="none">Education</option>
-                                    <option value="none">Matrimony</option>
-                                </select>
-
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-5 col-10">
-                            <div class="search-input">
-                                <label for="location"><i class="lni lni-map-marker theme-color"></i></label>
-                                <select name="location" id="location">
-                                    <option value="none" selected disabled>Locations</option>
-                                    <option value="none">New York</option>
-                                    <option value="none">California</option>
-                                    <option value="none">Washington</option>
-                                    <option value="none">Birmingham</option>
-                                    <option value="none">Chicago</option>
-                                    <option value="none">Phoenix</option>
-                                </select>
-                            </div>
-                        </div>
                         <div class="col-lg-2 col-sm-5 col-10">
                             <div class="search-btn">
                                 <button class="main-btn btn-hover">Search <i class="lni lni-search-alt"></i></button>
@@ -228,39 +180,41 @@
     <!--====== SEARCH PART END ======-->
 
     <!--====== CATEGORY LIST PART START ======-->
-    <section class="category-list-area pt-130">
+    <section class="category-list-area pt-50 pb-50">
         <div class="container">
             <div class="category-list-wrapper">
                 <div class="category-list-item">
                     <a href="category.html">
                         <div class="icon">
-                            <i class="lni lni-car"></i>
+                            {{-- <i class="lni lni-car"></i> --}}
+                            <i class="fa-solid fa-apple-whole"></i>
                         </div>
-                        <h3>Vehicles</h3>
+                        <h3>Buah</h3>
                     </a>
                 </div>
                 <div class="category-list-item">
                     <a href="category.html">
                         <div class="icon">
-                            <i class="lni lni-display"></i>
+                            {{-- <i class="lni lni-display"></i> --}}
+                            <i class="fa-solid fa-carrot"></i>
                         </div>
-                        <h3>Electronics</h3>
+                        <h3>Sayur</h3>
                     </a>
                 </div>
                 <div class="category-list-item">
                     <a href="category.html">
                         <div class="icon">
-                            <i class="lni lni-mobile"></i>
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
                         </div>
-                        <h3>Mobiles</h3>
+                        <h3>Peralatan</h3>
                     </a>
                 </div>
                 <div class="category-list-item">
                     <a href="category.html">
                         <div class="icon">
-                            <i class="lni lni-leaf"></i>
+                            <i class="fa-brands fa-gg-circle"></i>
                         </div>
-                        <h3>Furnitures</h3>
+                        <h3>Coming Soon</h3>
                     </a>
                 </div>
             </div>
@@ -305,8 +259,8 @@
                                 <p class="sort-des">Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam.
                                 </p>
                                 <div class="product-bottom">
-                                    <a href="javascript:void(0)" class="address-link"><i
-                                            class="lni lni-map-marker"></i> United State of America</a>
+                                    <a href="javascript:void(0)" class="address-link"><i class="lni lni-map-marker"></i>
+                                        United State of America</a>
                                     <span class="theme-color"><i class="lni lni-heart"></i></span>
                                 </div>
                             </div>
@@ -336,8 +290,8 @@
                                 <p class="sort-des">Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam.
                                 </p>
                                 <div class="product-bottom">
-                                    <a href="javascript:void(0)" class="address-link"><i
-                                            class="lni lni-map-marker"></i> United State of America</a>
+                                    <a href="javascript:void(0)" class="address-link"><i class="lni lni-map-marker"></i>
+                                        United State of America</a>
                                     <span class="theme-color"><i class="lni lni-heart"></i></span>
                                 </div>
                             </div>
@@ -367,8 +321,8 @@
                                 <p class="sort-des">Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam.
                                 </p>
                                 <div class="product-bottom">
-                                    <a href="javascript:void(0)" class="address-link"><i
-                                            class="lni lni-map-marker"></i> United State of America</a>
+                                    <a href="javascript:void(0)" class="address-link"><i class="lni lni-map-marker"></i>
+                                        United State of America</a>
                                     <span class="theme-color"><i class="lni lni-heart"></i></span>
                                 </div>
                             </div>
@@ -397,8 +351,8 @@
                                 <p class="sort-des">Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam.
                                 </p>
                                 <div class="product-bottom">
-                                    <a href="javascript:void(0)" class="address-link"><i
-                                            class="lni lni-map-marker"></i> United State of America</a>
+                                    <a href="javascript:void(0)" class="address-link"><i class="lni lni-map-marker"></i>
+                                        United State of America</a>
                                     <span class="theme-color"><i class="lni lni-heart"></i></span>
                                 </div>
                             </div>
@@ -485,7 +439,7 @@
                                 </li>
                                 <li>
                                     <span>Email:</span>
-                                    yourmail@gmail.com
+                                    kartikasatya1@gmail.com
                                 </li>
                                 <li>
                                     <span>Location:</span>
@@ -505,7 +459,7 @@
                     <div class="col-sm-12">
                         <div class="text-center">
                             <p>Designed & Developed By <a href="https://graygrids.com/" rel="nofollow"
-                                    target="_blank">GrayGrids</a></p>
+                                    target="_blank">.DotEXE</a></p>
                         </div>
                     </div>
                 </div>
@@ -539,6 +493,8 @@
 
     <!--====== Main js ======-->
     <script src="assets/js/main.js"></script>
+
+    <script src="https://kit.fontawesome.com/201674d4a6.js" crossorigin="anonymous"></script>
 
     <script>
         //======== tiny slider for feature-product-carousel
