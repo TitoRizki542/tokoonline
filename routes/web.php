@@ -16,17 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/admin', function () {
     return view('admin.dashboard');
 });
-Route::get('/', function () {
-    return view('user.index');
-});
 Route::get('/master', function () {
     return view('admin.master');
 });
 Route::get('/cek', function () {
-    return view('admin.cekbarang');
+    return view('admin.produksi');
 });
 Route::get('/cek2', function () {
-    return view('admin.cektransaksi');
+    return view('admin.transaksi');
 });
 Route::get('/cek3', function () {
     return view('admin.pendapatan');
@@ -36,4 +33,13 @@ Route::get('/profil', function () {
 });
 Route::get('/setting', function () {
     return view('admin.setting');
+});
+Route::get('/', function () {
+    return view('home.index');
+});
+Route::get('/login', function () {
+    return view('home.login');
+});
+Route::get('/register', function () {
+    return view('home.register');
 });

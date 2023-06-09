@@ -5,7 +5,7 @@
     <meta charset="utf-8">
 
     <!--====== Title ======-->
-    <title>Tani-KU</title>
+    <title>Tani-Ku</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -79,49 +79,10 @@
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <marquee behavior="alternate" width="400" class="theme-color">Selamat Datang Di Aplikasi
                                     Kami</marquee><br>
-                                {{-- <ul id="nav" class="navbar-nav">
-                                    <li class="nav-item">
-                                        <a class="page-scroll active" href="index.html">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="page-scroll" data-toggle="collapse" data-target="#sub-nav1"
-                                            aria-controls="sub-nav1" aria-expanded="false"
-                                            aria-label="Toggle navigation" href="javascript:void(0)">Pages
-                                            <div class="sub-nav-toggler">
-                                                <span></span>
-                                            </div>
-                                        </a>
-                                        <ul class="sub-menu collapse" id="sub-nav1">
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="service.html">Service</a></li>
-                                            <li><a href="category-list.html">Category List</a></li>
-                                            <li><a href="category.html">Category Grid</a></li>
-                                            <li><a href="pricing.html">Pricing</a></li>
-                                            <li><a href="accordions.html">Accordions</a></li>
-                                            <li><a href="product-details.html">Product Details</a></li>
-                                            <li><a href="login">Login</a></li>
-                                            <li><a href="signup.html">Sign Up</a></li>
-                                            <li><a href="404.html">404 Page</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="page-scroll" data-toggle="collapse" data-target="#sub-nav"
-                                            aria-controls="sub-nav" aria-expanded="false" aria-label="Toggle navigation"
-                                            href="javascript:void(0)">Category
-                                            <div class="sub-nav-toggler">
-                                                <span></span>
-                                            </div>
-                                        </a>
-                                        <ul class="sub-menu collapse" id="sub-nav">
-                                            <li><a href="category.html">Category Grid</a></li>
-                                            <li><a href="category-list.html">Category List</a></li>
-                                        </ul>
-                                    </li>
-                                </ul> --}}
                             </div>
                             <ul class="header-btn d-md-flex">
                                 <li>
-                                    <a href="#" class="main-btn btn-hover d-none d-md-block">Login</a>
+                                    <a href="login" class="main-btn btn-hover d-none d-md-block">Login</a>
                                 </li>
                             </ul>
                         </nav> <!-- navbar -->
@@ -142,11 +103,8 @@
                         <h1 class="mb-30 wow fadeInUp" data-wow-delay=".2s">Tani-ku</h1>
                         <p class="wow fadeInUp" data-wow-delay=".4s">Selamat Datang di TaniKu yang merupakan sebuah
                             platform yang didedikasikan
-
                             untuk mempermudah proses jual beli sayuran secara online. Situs ini menyediakan
-
                             berbagai informasi terkait seputar harga pasar terkini dari sayuran segar yang sudah
-
                             dipanen dan siap akan dijual.</p></br>
                     </div>
                 </div>

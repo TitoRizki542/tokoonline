@@ -2,14 +2,13 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Dashboard TaniKu</title>
+    <title>Tani-Ku</title>
 
     {{-- Icon tab --}}
     <link rel="shortcut icon" href="assets/images/tani.png" type="image/png">
@@ -31,7 +30,6 @@
 </head>
 
 <body id="page-top">
-
     <!-- Page Wrapper -->
     <div id="wrapper">
 
@@ -39,12 +37,6 @@
         <ul class="navbar-nav bg-gradient-info sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <img id="logo" src="assets/images/tani.png" alt="Logo" class="rounded mx-auto d-block" width="90px">
-            <!-- Sidebar - Brand -->
-            {{-- <a class="sidebar-brand d-flex align-items-center justify-content-center" href="admin">
-                <div class="sidebar-brand-text mx-1">
-                    Dashboard Tani
-                </div>
-            </a> --}}
 
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
@@ -371,7 +363,6 @@
 
     <!-- Page level custom scripts -->
     <script src="js/demo/datatables-demo.js"></script>
-
 </body>
 
 </html>
