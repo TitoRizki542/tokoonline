@@ -16,17 +16,20 @@ use Illuminate\Support\Facades\Route;
 Route::get('/admin', function () {
     return view('admin.dashboard');
 });
+<<<<<<< HEAD
 Route::get('/', function () {
     return view('user.index1');
 });
+=======
+>>>>>>> b42f0d2c3f3115d485c1abeb14f866b225ae6549
 Route::get('/master', function () {
     return view('admin.master');
 });
 Route::get('/cek', function () {
-    return view('admin.cekbarang');
+    return view('admin.produksi');
 });
 Route::get('/cek2', function () {
-    return view('admin.cektransaksi');
+    return view('admin.transaksi');
 });
 Route::get('/cek3', function () {
     return view('admin.pendapatan');
@@ -37,6 +40,7 @@ Route::get('/profil', function () {
 Route::get('/setting', function () {
     return view('admin.setting');
 });
+<<<<<<< HEAD
 Route::get('/login', function () {
     return view('user.login');
 });
@@ -60,4 +64,14 @@ Route::get('/pembayaran', function () {
 });
 Route::get('/konfirmasi', function () {
     return view('user.konfirmasi');
+=======
+Route::get('/', function () {
+    return view('home.index');
+});
+Route::get('/login', function () {
+    return view('home.login');
+});
+Route::get('/register', function () {
+    return view('home.register');
+>>>>>>> b42f0d2c3f3115d485c1abeb14f866b225ae6549
 });
