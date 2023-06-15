@@ -16,12 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/admin', function () {
     return view('admin.dashboard');
 });
-<<<<<<< HEAD
+
 Route::get('/', function () {
-    return view('user.index1');
+    return view('home.index');
 });
-=======
->>>>>>> b42f0d2c3f3115d485c1abeb14f866b225ae6549
 Route::get('/master', function () {
     return view('admin.master');
 });
@@ -40,31 +38,30 @@ Route::get('/profil', function () {
 Route::get('/setting', function () {
     return view('admin.setting');
 });
-<<<<<<< HEAD
 Route::get('/login', function () {
-    return view('user.login');
+    return view('home.login');
 });
 Route::get('/register', function () {
-    return view('user.register');
+    return view('home.register');
 });
 Route::get('/buah', function () {
-    return view('user.buah');
+    return view('home.buah');
 });
 Route::get('/kategori_jeruk', function () {
-    return view('user.kategori_jeruk');
+    return view('home.kategori_jeruk');
 });
 Route::get('/detail_jeruk', function () {
-    return view('user.detail_jeruk');
+    return view('home.detail_jeruk');
 });
 Route::get('/sayur', function () {
-    return view('user.sayur');
+    return view('home.sayur');
 });
 Route::get('/pembayaran', function () {
-    return view('user.pembayaran');
+    return view('home.pembayaran');
 });
 Route::get('/konfirmasi', function () {
-    return view('user.konfirmasi');
-=======
+    return view('home.konfirmasi');
+});
 Route::get('/', function () {
     return view('home.index');
 });
@@ -73,5 +70,4 @@ Route::get('/login', function () {
 });
 Route::get('/register', function () {
     return view('home.register');
->>>>>>> b42f0d2c3f3115d485c1abeb14f866b225ae6549
 });
